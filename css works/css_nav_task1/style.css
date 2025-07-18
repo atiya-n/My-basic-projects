@@ -1,0 +1,45 @@
+.container{
+    width: 100%;
+    height: 50px;
+    border: 2px solid black;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.logo-border{
+   border: 1px solid black;
+   width:5%;
+   height: 25px;
+   margin-left: 5px;
+   text-align: center;
+   position: absolute;
+   right: 92%;
+
+}
+
+.main-border{
+    width: 30%;
+    height: 25px;
+    /* border: 1px solid rgb(244, 10, 10); */
+    display: flex;
+    justify-content: space-evenly;
+
+
+}
+
+.main-boxes{
+    width: 80px;
+    height: 25px;
+    border: 1px solid black;
+    text-align: center;
+}
+
+.cart-border{
+    width: 5%;
+    height: 25px;
+    border: 1px solid black;
+    text-align: center;
+    position: absolute;
+    left: 92%;
+}

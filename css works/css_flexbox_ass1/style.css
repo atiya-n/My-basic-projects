@@ -1,0 +1,66 @@
+
+.heading{
+    color: white;
+    text-align: center;
+
+}
+
+.container{
+    width: 70%;
+    height: 500px;
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 50px;
+}
+
+.parent1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.child1{
+    width: 10%;
+    height: 150px;
+    border: 3px solid black;
+
+}
+
+.bg1{ background-color: rgb(78, 76, 76);}
+.bg2{ background-color: rgb(35, 67, 2);}
+.bg3{ background-color: rgb(60, 145, 61);}
+.bg4{ background-color: rgb(86, 251, 4);}
+.bg5{ background-color: peachpuff;}
+
+.child2{
+    width: 10%;
+    height: 150px;
+    border: 3px solid black;
+    margin-top: 20px;
+}
+
+.bg6{ background-color: rgb(248, 89, 4);}
+.bg7{ background-color: rgb(180, 27, 16);}
+.bg8{ background-color: rgb(105, 43, 64);}
+.bg9{ background-color: rgb(125, 54, 138);}
+.bg10{ background-color: rgb(103, 3, 253);}
+.bg11{background-color: rgb(87, 39, 113);}
+.bg12{ background-color: rgb(69, 57, 47);}
+
+.child3{
+    width: 10%;
+    height: 150px;
+    border: 3px solid black;
+    margin-top: 20px;
+}
+
+.bg13{ background-color: rgb(4, 242, 255);}
+.bg14{ background-color: rgb(183, 243, 5);}
+.bg15{ background-color: rgb(215, 128, 51);}
+.bg16{ background-color: rgb(112, 1, 45);}
+.bg17{ background-color: rgb(40, 19, 2);}
+.bg18{ background-color: rgb(51, 136, 105);}
+.bg19{ background-color: rgb(5, 67, 42);}
+.bg20{ background-color: rgb(76, 52, 83);}
+.bg21{ background-color: rgb(43, 1, 52);}

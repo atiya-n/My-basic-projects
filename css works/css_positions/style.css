@@ -1,0 +1,64 @@
+.parent{
+    width: 50%;
+    height: 400px;
+    background-color: rgb(15, 15, 55);
+
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 200px
+    ;
+    position: relative;
+}
+
+.child{
+    width: 20%;
+    height: 100px;
+    background-color: rgb(24, 76, 24);
+    text-align: center;
+}
+
+.left-box{
+    position: absolute;
+    top: 35%;
+    right: 100%;
+}
+
+.right-box{
+    position: absolute;
+    top: 35%;
+    left: 100%;
+}
+
+.top-box{
+    position: absolute;
+    left: 40%;
+    bottom: 100%;
+}
+
+.bottom-box{
+    position: absolute;
+    left: 40%;
+    top: 100%;
+}
+
+.fixed{
+    width: 15%;
+    height:100px;
+    background-color: rgb(230, 172, 13);
+    border: 1px solid black;
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    text-align: center;
+
+}
+
+.sticky{
+    width: 75%;
+    height: 50px;
+    background-color: aquamarine;
+    margin-left: auto;
+    margin-right: auto;
+    position: sticky;
+    top: 0;
+}

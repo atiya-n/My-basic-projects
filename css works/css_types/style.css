@@ -1,0 +1,45 @@
+/*tagname|classname|id{
+    property:value;
+    property:value;
+} */
+
+/* Using tagname as selector */
+h1{
+    color: blue;
+}
+
+h2{
+    color:yellow
+}
+
+/* Using classname as selector */
+.primary{
+    color: aquamarine;
+}
+
+.border_success{
+    border-width: 1px;
+    border-style: solid;
+    border-color: green;
+}
+
+/* Using id as selector */
+#head{
+    color: green;
+}
+
+#second-head{
+    color: blue;
+}
+
+.text-success{
+    color: green;
+}
+
+.text-warning{
+    color: yellow;
+}
+
+.text-danger{
+    color: red;
+}

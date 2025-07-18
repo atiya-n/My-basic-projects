@@ -1,0 +1,17 @@
+.border{
+    border-width: 2px;
+    border-style: solid;
+    border-color: black;
+}
+
+.border-success{
+    border: 2px solid green;
+}
+
+.border-danger{
+    border: 2px solid red;
+}
+
+.text-success{
+    color: green;
+}

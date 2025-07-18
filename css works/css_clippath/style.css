@@ -1,0 +1,21 @@
+
+
+.container{
+    width: 50%;
+    height: 275px;
+    border: 1px solid black;
+    display: flex;
+}
+
+
+.left-box{
+    width: 25%;
+    height: 100%;
+    background-color: black;
+clip-path: polygon(25% 25%, 82.75% 25%, 25% 75%, 25% 75%);
+}
+
+.right-box{
+    width: 75%;
+    height: 100%;
+}

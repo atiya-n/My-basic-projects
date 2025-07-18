@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <!-- bs cdn -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-LN+7fdVzj6u52u30Kp6M/trliBMCMKTyK833zpbD+pXdCLuTusPj697FH4R/5mcr" crossorigin="anonymous">
+  <!-- bs js -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-ndDqU0Gzau9qJ1lfW4pNLlhNTkCfHzAVBReH9diLvGRem5+R9g2FzA8ZGN954O5Q"
+    crossorigin="anonymous"></script>
+  <!-- bs icon -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css">
+
+</head>
+
+<body>
+  <!-- navbar section starts -->
+
+  <nav class="navbar navbar-expand-lg bg-body-tertiary">
+    <div class="container">
+      <a class="navbar-brand" href="#">ShopWise</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="#">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">About</a>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              Shop
+            </a>
+            <ul class="dropdown-menu">
+              <li><a class="dropdown-item" href="#">All Products</a></li>
+              <li>
+                <hr class="dropdown-divider">
+              </li>
+              <li><a class="dropdown-item" href="#">Popular Items</a></li>
+              <li><a class="dropdown-item" href="#">New Arrivals</a></li>
+            </ul>
+          </li>
+
+        </ul>
+        <form class="d-flex" role="search">
+          <button class="btn btn-outline-dark" type="submit"><i class="bi bi-cart3"></i>
+            Cart
+            <span class="badge text-bg-dark">0</span>
+          </button>
+        </form>
+      </div>
+    </div>
+  </nav>
+
+  <!-- navbar section ends -->
+
+  <!-- banner section starts -->
+
+  <div class="container-fluid bg-dark p-5">
+    <h2 class="text-light fw-bold text-center"> Shop in style</h2>
+    <p class="text-center text-secondary">With this shop homepage template</p>
+  </div>
+
+  <!-- banner section ends -->
+
+  <!-- grids section starts -->
+
+  <div class="container mt-5 ">
+    <div class="row">
+
+      <div class="col-lg-3 col-md-4 col-6 text-center border border-dark rounded p-2 me-2 h-">
+        <div class="border bg-secondary p-5 mb-2 w-100">450 x 300</div>
+        <p>Fancy Product</p>
+        <p class="mb-4">$40.00 - $80.00</p>
+        <button class="btn btn-outline-dark rounded">View Options</button>
+      </div>
+
+      <div class="col-lg-3 col-md-4 col-6 text-center border border-dark rounded p-2 me-2">
+        <div class="border bg-secondary p-5 mb-2 position-relative">
+          450 x 300
+          <div class="border bg-dark border-dark position-absolute top-0 end-0 text-light rounded p-2">Sale</div>
+        </div>
+        <p class="mb-1">Special Item</p>
+        <div class="mb-2 text-warning"> <i class="bi bi-star-fill"></i> <i class="bi bi-star-fill"></i> <i
+            class="bi bi-star-fill"></i> <i class="bi bi-star-fill"></i> <i class="bi bi-star-fill"></i> </div>
+        <div class="mb-2"> <span class="text-decoration-line-through">$20.00</span> <span>$18.00</span> </div>
+        <button class="btn btn-outline-dark rounded">Add to Cart</button>
+      </div>
+
+      <div class="col-lg-3 col-md-4 col-6 text-center border border-dark rounded p-2 me-2">
+        <div class="border bg-secondary p-5 mb-2 position-relative">
+          450 x 300
+          <div class="border bg-dark border-dark position-absolute top-0 end-0 text-light rounded p-2">Sale</div>
+        </div>
+        <p class="mb-3">Sale Item</p>
+        <div class="mb-4"> <span class="text-decoration-line-through">$50.00</span> <span>$25.00</span> </div>
+        <button class="btn btn-outline-dark rounded">Add to Cart</button>
+      </div>
+
+      <div class="col-lg-3 col-md-4 col-6 text-center border border-dark rounded p-2">
+        <div class="border bg-secondary p-5 mb-2 position-relative">
+          450 x 300
+          <div class="border bg-dark border-dark position-absolute top-0 end-0 text-light rounded p-2">Sale</div>
+        </div>
+        <p class="mb-3">Popular Item</p>
+        <div class="mb-2 text-warning"> <i class="bi bi-star-fill"></i> <i class="bi bi-star-fill"></i> <i
+            class="bi bi-star-fill"></i> <i class="bi bi-star-fill"></i> <i class="bi bi-star-fill"></i> </div>
+        <div class="mb-4"> <span>$40.00</span> </div>
+        <button class="btn btn-outline-dark rounded">Add to Cart</button>
+      </div>
+    </div>
+
+    <div class="row">
+
+      <div class="col-lg-3 col-md-4 col-6 text-center border border-dark rounded p-2 me-2">
+        <div class="border bg-secondary p-5 mb-2 position-relative">
+          450 x 300
+          <div class="border bg-dark border-dark position-absolute top-0 end-0 text-light rounded p-2">Sale</div>
+        </div>
+        <p class="mb-3">Sale Item</p>
+        <div class="mb-4"> <span class="text-decoration-line-through">$50.00</span> <span>$25.00</span> </div>
+        <button class="btn btn-outline-dark rounded">Add to Cart</button>
+      </div>
+
+
+      <div class="col-lg-3 col-md-4 col-6 text-center border border-dark rounded p-2 me-2">
+        <div class="border bg-secondary p-5 mb-2">450 x 300</div>
+        <p>Fancy Product</p>
+        <p class="mb-4">$120.00 - $280.00</p>
+        <button class="btn btn-outline-dark rounded">View Options</button>
+      </div>
+
+      <div class="col-lg-3 col-md-4 col-6 text-center border border-dark rounded p-2 me-2">
+        <div class="border bg-secondary p-5 mb-2 position-relative">
+          450 x 300
+          <div class="border bg-dark border-dark position-absolute top-0 end-0 text-light rounded p-2">Sale</div>
+        </div>
+        <p class="mb-1">Special Item</p>
+        <div class="mb-2 text-warning"> <i class="bi bi-star-fill"></i> <i class="bi bi-star-fill"></i> <i
+            class="bi bi-star-fill"></i> <i class="bi bi-star-fill"></i> <i class="bi bi-star-fill"></i> </div>
+        <div class="mb-2"> <span class="text-decoration-line-through">$20.00</span> <span>$18.00</span> </div>
+        <button class="btn btn-outline-dark rounded">Add to Cart</button>
+      </div>
+
+      <div class="col-lg-3 col-md-4 col-6 text-center border border-dark rounded p-2">
+        <div class="border bg-secondary p-5 mb-2 position-relative">
+          450 x 300
+          <div class="border bg-dark border-dark position-absolute top-0 end-0 text-light rounded p-2">Sale</div>
+        </div>
+        <p class="mb-3">Popular Item</p>
+        <div class="mb-2 text-warning"> <i class="bi bi-star-fill"></i> <i class="bi bi-star-fill"></i> <i class="bi bi-star-fill"></i> <i class="bi bi-star-fill"></i> <i class="bi bi-star-fill"></i> </div>
+        <div class="mb-4"> <span>$40.00</span> </div>
+        <button class="btn btn-outline-dark rounded">Add to Cart</button>
+      </div>
+
+    </div>
+  </div>
+  <!-- grids section ends -->
+
+  <!-- footer section -->
+  <div class="container-fluid bg-dark p-5 text-light text-center mt-3">
+    <p> Copyright @ Your Website 2023</p>
+  </div>
+
+  <!-- footer section ends -->
+
+
+
+
+</body>
+
+</html>

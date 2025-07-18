@@ -1,0 +1,22 @@
+.card{
+    border: 2px solid black;
+    border-radius: 5px;
+    background-color: #39068b;
+    /* height and width of the card */
+    height: 250px;
+    width: 300px;
+}
+
+.card-title{
+    color: #00c2d9;
+    /* to make changes to the text */
+    /* text-align => center|left|right */
+    /* text-decoration => underline|overline|linethrough */
+    text-align: center;
+    text-decoration: underline;
+}
+
+.card>p{
+    text-align: center;
+    color: #00c2d9;
+}

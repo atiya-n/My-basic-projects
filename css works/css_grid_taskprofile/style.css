@@ -1,0 +1,108 @@
+sup{
+    border: 1px solid red;
+    background-color: red;
+    color: white;
+    border-radius: 50%;
+}
+
+.image{
+    width: 10%;
+    height: 5px;
+    border: 1px solid white;
+    border-radius: 50%;
+}
+
+.image>img{
+    width: 100%;
+    height: 5px;
+}
+
+.grid-container{
+    width: 75%;
+    height: 700px;
+    border: 1px solid darkblue;
+    background-color: rgb(24, 24, 73);
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 60px 1fr 1fr;
+    color: white;
+    gap: 10px;
+    border-radius: 10px;
+}
+
+.griditems1{
+    background-color: rgb(48, 48, 135);
+    border: 1px solid rgb(48, 48, 135);
+    grid-column: 1/4;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: white;
+}
+
+.griditems2{
+    background-color: rgb(48, 48, 135);
+    border: 1px solid rgb(48, 48, 135);
+    height: 300px;
+
+    
+}
+
+.griditems3{
+    background-color: rgb(48, 48, 135);
+    border: 1px solid rgb(48, 48, 135);
+    position: relative;
+    height: 400px;
+    
+}
+
+.main-image{
+    width: 70%;
+    height: 150px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10px;
+    
+}
+.main-image>img{
+    width: 100%;
+    height: 150px;
+    border: 1px solid white;
+    border-radius: 50%;
+}
+
+.bottom-box{
+    width: 100%;
+    height: 20px;
+    display: flex;
+    margin-top: 110px;
+    
+}
+
+.griditems4{
+    background-color: rgb(48, 48, 135);
+    border: 1px solid rgb(48, 48, 135);
+    position: relative;
+    height: 200px;
+}
+
+.griditems5{
+    background-color: rgb(48, 48, 135);
+    border: 1px solid rgb(48, 48, 135);
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+  
+}
+
+.griditems6{
+    background-color: rgb(177, 60, 60);
+}
+
+
+
+.griditems7{
+    background-color: rgb(48, 48, 135);
+    border: 1px solid rgb(48, 48, 135);
+}
+
