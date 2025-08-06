@@ -41,3 +41,24 @@ print(last_digit_max(179,872))
 
 
 
+# the func can be defined in this type also by already assigning default values in the parameters 
+# then there wont be a need to pass the args when calling the func
+
+def smart_div(num1=10,num2=2):
+
+    return num1-num2
+
+print(smart_div())
+
+
+
+# create a func exponent with 2 para base,power
+
+def exponent(base,power):
+
+    result = base**power
+
+    return result
+
+print(exponent(3,2))
+

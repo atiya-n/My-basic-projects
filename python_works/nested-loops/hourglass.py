@@ -20,7 +20,7 @@ for row1 in range(1,5):
 
     print()
 
-for row2 in range(1,5):
+for row2 in range(2,5):
 
     for sp2 in range(1,5-row2):
 
